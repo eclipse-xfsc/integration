@@ -1,0 +1,9 @@
+source: https://gitlab.com/gaia-x/data-infrastructure-federation-services/gxfs-integration.git
+sourceRef: main
+project: gxfs-catalog
+
+applications:
+- name: fc-service
+  namespace: gxfs-catalog
+  enabled: true
+  sourcePath: helm/charts/fc-service
